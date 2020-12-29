@@ -1,0 +1,15 @@
+hava,isi,nem,ruzgar,oyun
+gunesli,sicak,yuksek,hafif,hayir
+gunesli,sicak,yuksek,kuvvetli,hayir
+bulutlu,sicak,yuksek,hafif,evet
+yagmurlu,ilik,yuksek,hafif,evet
+yagmurlu,soguk,normal,hafif,evet
+yagmurlu,soguk,normal,kuvvetli,hayir
+bulutlu,soguk,normal,kuvvetli,evet
+gunesli,ilik,yuksek,hafif,hayir
+gunesli,soguk,normal,hafif,evet
+yagmurlu,ilik,normal,hafif,evet
+gunesli,ilik,normal,kuvvetli,evet
+bulutlu,ilik,yuksek,kuvvetli,evet
+bulutlu,sicak,normal,hafif,evet
+yagmurlu,ilik,yuksek,kuvvetli,hayir
