@@ -1,4 +1,4 @@
-// g++ -o program -std=c++11
+// g++ -o program tic_tac_toe.cpp -std=c++11
 
 #include <iostream>
 #include <vector>
