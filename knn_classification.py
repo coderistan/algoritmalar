@@ -25,6 +25,8 @@ class Gozlem:
         else:
             if uzakliklar[self.index_list[0]][other.index_list[0]] == -1:
                 result = sum((i[0]-i[1])**2 for i in zip(self.degerler,other.degerler)) ** 0.5
+                uzakliklar[self.index_list[0]][other.index_list[0]] = result
+                uzakliklar[other.index_list[0]][self.index_list[0]] = result
             else:
                 result = uzakliklar[self.index_list[0]][other.index_list[0]]
 
@@ -81,10 +83,6 @@ while resume:
             if result <= enk:
                 enk = result
                 alt_kume = [index,i]
-            
-            if uzakliklar[i][index] == -1:
-                uzakliklar[i][index] = result
-                uzakliklar[index][i] = result
 
     if len(veriler) > 1:
         veriler[alt_kume[0]].birlesim(veriler[alt_kume[1]])
